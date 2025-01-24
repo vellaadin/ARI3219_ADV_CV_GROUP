@@ -1,0 +1,15 @@
+names:
+- black_bag
+- grey_bag
+- other_waste
+- white_bag
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: ari3219_adv_cv
+  url: https://universe.roboflow.com/ari3219advcv/ari3219_adv_cv/dataset/7
+  version: 7
+  workspace: ari3219advcv
+test: test/images
+train: train/images
+val: valid/images
