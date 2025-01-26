@@ -1,0 +1,13 @@
+train: D:\Git\ARI3219_ADV_CV_GROUP\MODELS_FINAL\yolov8m_malcolmborg_final\dataset/train/images
+val: D:\Git\ARI3219_ADV_CV_GROUP\MODELS_FINAL\yolov8m_malcolmborg_final\dataset/valid/images
+test: D:\Git\ARI3219_ADV_CV_GROUP\MODELS_FINAL\yolov8m_malcolmborg_final\dataset/test/images
+
+nc: 4
+names: ['black_bag', 'grey_bag', 'other_waste', 'white_bag']
+
+roboflow:
+  workspace: ari3219advcv
+  project: ari3219_adv_cv
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ari3219advcv/ari3219_adv_cv/dataset/7
